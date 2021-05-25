@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './credit_card.module.css';
 
 const CreditCard = () => (
-    <section>
+    <section className={styles.creditcard}>
         <div className={styles.card}>
             <div className={`${styles.face} ${styles.front}`}>
             <h3 className={styles.debit}>Crystal Card</h3>
