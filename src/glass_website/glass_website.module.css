@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ section.glasswebsite {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(images/bg2.jpg);
+    background: url(bg2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
