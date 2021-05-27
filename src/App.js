@@ -18,7 +18,6 @@ function App() {
             <Route path="/card-glass-02"><ItemCard /></Route>
             <Route path="/website-glass-03"><GlassWebsite /></Route>
             <Route path="/dashboard-glass-04"><GlassDashboard /></Route>
-            <Route path="/content-3d-box-05"></Route>
         </Switch>
       </BrowserRouter>
     </>
