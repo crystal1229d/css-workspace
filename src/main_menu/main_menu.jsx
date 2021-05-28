@@ -19,6 +19,7 @@ const MainMenu = () => {
                 <li data-id="card-glass-02" onClick={onMenuBtn}>Glassmorphism Item Card</li>
                 <li data-id="website-glass-03" onClick={onMenuBtn}>Glassmorphism Responsibe Web</li>
                 <li data-id="dashboard-glass-04" onClick={onMenuBtn}>Glassmorphism Dashboard</li>
+                <li data-id="dark-light-mode-05" onClick={onMenuBtn}>Dark&Light Mode</li>
             </ul>
         </div> 
     );
