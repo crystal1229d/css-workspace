@@ -18,6 +18,9 @@ section.darklightmode {
 section.dark {
     background: #24292d;
 }
+/* .section.dark .card {
+    background: #323840;
+} */
 section .card {
     position: relative;
     width: 300px;

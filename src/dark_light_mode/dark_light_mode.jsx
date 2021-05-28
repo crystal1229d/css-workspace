@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './dark_light_mode.module.css';
+import cn from 'classnames';
 
 const DarkLightMode = () => {
     const [mode, setMode] = useState('light');
@@ -8,7 +9,7 @@ const DarkLightMode = () => {
     };
 
     return (
-        <section className={`${styles.darklightmode}`}>
+        <section className={`${styles.darklightmode} ${mode === "light" ? styles.light : styles.dark}`}>
         <div className={styles.card}>
             <div className={styles.toggle} onClick={onChangeMode}></div>
             <div className={styles.content}>
